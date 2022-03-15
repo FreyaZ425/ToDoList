@@ -13,7 +13,7 @@ class ToDoList():
         self.df = pd.DataFrame(self.my_to_do_list, self.index)
  
     def add_event(self, date, event):
-        """Add an event to the calender.
+        """Add an event to the to-do-list.
     
         Parameters
         ----------
@@ -39,7 +39,7 @@ class ToDoList():
 
  
     def delete_event(self, date, event):
-        """Delete an event from the calender.
+        """Delete an event from the to-do-list.
     
         Parameters
         ----------
