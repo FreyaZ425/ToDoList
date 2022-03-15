@@ -77,10 +77,14 @@ class ToDoList():
     
         Parameters
         ----------
-        day : string
-            The day of the event.
-        event : string
-            Name of the event added.
+        old_date : string
+            The original date of the event.
+        old_event : string
+            The original name of the event.
+        new_date : string
+            The new date of the event.
+        new_event : string
+            The new name of the event.
     
         Returns
         -------
