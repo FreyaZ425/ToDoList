@@ -73,7 +73,7 @@ class ToDoList():
         return calender
         
     def change_event(self, old_date, old_event, new_date, new_event):
-        """Calculate the percentage of unique numbers.
+        """Update an event or its date.
     
         Parameters
         ----------
