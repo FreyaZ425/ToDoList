@@ -77,7 +77,7 @@ class ToDoList():
     
         Parameters
         ----------
-        date : string
+        day : string
             The day of the event.
         event : string
             Name of the event added.
